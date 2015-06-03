@@ -15,7 +15,7 @@ $main-color: #3874b9;
 $main-color-dark: #0e4586; //Link Color
 $main-color-light: #3a76bb; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $main-color-bg: $main-color; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
-$main-color-content-background: #fff;
+$main-color-content-background: #3874b9;
 
 //Beige Color Variables
 $beige: #9d9573;
@@ -59,7 +59,7 @@ $container-bg: $main-color-content-background;
 $login-register-bg: $main-color-content-background;
 $content-wrapper-bg: $main-color-content-background;
 $header-image: none;
-$header-bg:#852568;
+$header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $footer-bg: $main-color-content-background;
