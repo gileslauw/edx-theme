@@ -230,9 +230,11 @@ body header.global {
     border-bottom: none;
     box-shadow: none;
     height: 70px;
+    background-color:#3cb5de ;
 
     h1.logo {
         margin: 0;
+        background-image: url("/static/images/logo.png");
     }
 
     nav {
