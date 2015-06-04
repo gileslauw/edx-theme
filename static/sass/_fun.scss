@@ -15,7 +15,7 @@ $main-color: #3874b9;
 $main-color-dark: #0e4586; //Link Color
 $main-color-light: #3a76bb; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $main-color-bg: $main-color; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
-$main-color-content-background: #3874b9;
+$main-color-content-background: #fff;
 
 //Beige Color Variables
 $beige: #9d9573;
@@ -183,7 +183,7 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: '../themes/fun/images/pano.jpg';
+$homepage-bg-image: none;
 
 $login-banner-image: none;
 $register-banner-image: none;
@@ -261,8 +261,8 @@ body header.global {
             top: 132px;
             left: 0px;
             width: 100%;
-            height: 151px;
-            background: url("../themes/fun/images/blue_banner.png") no-repeat scroll center 0px rgb(14, 69, 134);
+            height: 0px;
+            //background: url("../themes/fun/images/blue_banner.png") no-repeat scroll center 0px rgb(14, 69, 134);
 
             .nav-global-outer {
                 margin-top: 100px;
